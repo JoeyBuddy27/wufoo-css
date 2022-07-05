@@ -54,7 +54,6 @@ label.desc,
 	font-weight: normal !important;
 	order: 2 !important;
 	padding-left: 8px !important;
-	margin-top: 4px !important;
 }
 
 option {
@@ -106,5 +105,9 @@ form li.focused {
 }
 
 #header {
+	display: none !important;
+}
+
+.req {
 	display: none !important;
 }
