@@ -24,6 +24,7 @@ textarea {
 	line-height: 20px !important;
 	padding: 8px !important;
 	min-width: 0 !important;
+	max-height: 32px !important;
 	border-width: 1px !important;
 	font-family: 'Open Sans', sans-serif !important;
 }
@@ -75,6 +76,10 @@ input[type='radio'] {
 	color: white !important;
 }
 
+input[type='radio'] > label > span {
+	color: white !important;
+}
+
 .d-flex {
 	display: flex !important;
 	flex-direction: row !important;
@@ -98,4 +103,8 @@ form li.focused {
 .width-100,
 .large {
 	width: 95% !important;
+}
+
+#header {
+	display: none !important;
 }
