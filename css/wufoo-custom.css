@@ -14,6 +14,10 @@ html {
 	font-family: 'Open Sans', sans-serif !important;
 }
 
+#container {
+	background: #0e293c !important;
+}
+
 input,
 select,
 textarea {
@@ -59,6 +63,7 @@ form li {
 
 input[type='radio'] {
 	display: block !important;
+	color: white !important;
 }
 
 .d-flex {
