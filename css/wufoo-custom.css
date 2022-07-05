@@ -12,10 +12,11 @@
 
 html {
 	font-family: 'Open Sans', sans-serif !important;
-	background: red;
 }
 
-input {
+input,
+select,
+textarea {
 	border-radius: 4px 4px 0 0 !important;
 	line-height: 20px !important;
 	padding: 8px !important;
@@ -27,6 +28,14 @@ input {
 
 label {
 	font-family: 'Open Sans', sans-serif !important;
+	font-size: 12px !important;
+	color: #718096 !important;
+	order: 2 !important;
+}
+
+form li {
+	display: flex !important;
+	flex-direction: column !important;
 }
 
 ::placeholder {
