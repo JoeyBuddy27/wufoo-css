@@ -72,11 +72,11 @@ form li {
 }
 
 input[type='radio'] {
-	display: block !important;
 	color: white !important;
 }
 
-input[type='radio'] > label > span {
+input[type='radio'] > label > span,
+.choice__text {
 	color: white !important;
 }
 
