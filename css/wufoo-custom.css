@@ -21,9 +21,13 @@ textarea {
 	line-height: 20px !important;
 	padding: 8px !important;
 	min-width: 0 !important;
-	max-height: 32px !important;
+	height: 32px !important;
 	border-width: 1px !important;
 	font-family: 'Open Sans', sans-serif !important;
+}
+
+textarea {
+	height: 120px !important;
 }
 
 label,
@@ -35,6 +39,8 @@ label.desc,
 	color: #718096 !important;
 	font-weight: normal !important;
 	order: 2 !important;
+	padding-left: 8px !important;
+	margin-top: 4px !important;
 }
 
 option {
@@ -63,4 +69,19 @@ input[type='radio'] {
 .wufoo li.focused,
 form li.focused {
 	background-color: transparent !important;
+}
+
+.width-30,
+.small {
+	width: 30% !important;
+}
+
+.width-50,
+.medium {
+	width: 50% !important;
+}
+
+.width-100,
+.large {
+	width: 100% !important;
 }
