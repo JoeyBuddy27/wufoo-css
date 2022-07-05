@@ -72,6 +72,7 @@ form li {
 
 input[type='radio'] {
 	color: white !important;
+	margin-bottom: 4px !important;
 }
 
 input[type='radio'] > label > span,
