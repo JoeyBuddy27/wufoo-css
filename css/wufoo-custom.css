@@ -46,3 +46,8 @@ form li {
 input[type='radio'] {
 	display: block !important;
 }
+
+.d-flex {
+	display: flex !important;
+	flex-direction: row !important;
+}
