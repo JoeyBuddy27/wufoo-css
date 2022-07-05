@@ -27,10 +27,13 @@ textarea {
 }
 
 label,
-.desc {
+.desc,
+label.desc,
+.wufoo label.desc {
 	font-family: 'Open Sans', sans-serif !important;
 	font-size: 12px !important;
 	color: #718096 !important;
+	font-weight: normal !important;
 	order: 2 !important;
 }
 
