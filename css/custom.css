@@ -1,0 +1,32 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : 
+ Author : 
+ URL : http://
+
+ Last Updated : 
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+input {
+	border-radius: 4px 4px 0 0;
+	line-height: 20px;
+	padding: 8px;
+	min-width: 0;
+	max-height: 32px;
+	border-width: 1px;
+}
+
+::placeholder {
+	color: #718096;
+	font-size: 16px;
+}
+
+input[type='radio'] {
+}
