@@ -56,3 +56,8 @@ input[type='radio'] {
 	display: flex !important;
 	flex-direction: row !important;
 }
+
+.wufoo li.focused,
+form li.focused {
+	background-color: transparent !important;
+}
