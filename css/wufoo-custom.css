@@ -19,19 +19,28 @@ html {
 }
 
 input,
-select,
 textarea {
 	border-radius: 4px 4px 0 0 !important;
 	line-height: 20px !important;
 	padding: 8px !important;
 	min-width: 0 !important;
-	height: 32px !important;
 	border-width: 1px !important;
 	font-family: 'Open Sans', sans-serif !important;
 }
 
 textarea {
 	height: 120px !important;
+}
+
+select {
+	border-radius: 4px 4px 0 0 !important;
+	line-height: 20px !important;
+	padding: 8px !important;
+	border-top: 1px solid #7c7c7c;
+	border-left: 1px solid #c3c3c3;
+	border-right: 1px solid #c3c3c3;
+	border-bottom: 1px solid #ddd;
+	height: 40px !important;
 }
 
 label,
@@ -88,5 +97,5 @@ form li.focused {
 
 .width-100,
 .large {
-	width: 100% !important;
+	width: 95% !important;
 }
