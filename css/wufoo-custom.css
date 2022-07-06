@@ -18,6 +18,14 @@ html {
 	background: #0e293c !important;
 }
 
+#logo {
+	display: none !important;
+}
+
+form {
+	padding-top: 8px !important;
+}
+
 input,
 textarea {
 	border-radius: 4px 4px 0 0 !important;
@@ -30,6 +38,7 @@ textarea {
 }
 
 textarea {
+	max-height: 120px !important;
 	height: 120px !important;
 }
 
@@ -111,4 +120,8 @@ form li.focused {
 
 .req {
 	display: none !important;
+}
+
+.wufoo legend.desc {
+	color: white !important;
 }
