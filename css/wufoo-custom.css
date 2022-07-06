@@ -17,6 +17,7 @@ html {
 
 #container {
 	background: #0e293c !important;
+	width: 100% !important;
 }
 
 #logo {
