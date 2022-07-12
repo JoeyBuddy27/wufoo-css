@@ -26,6 +26,7 @@ html {
 
 form {
 	padding-top: 8px !important;
+	margin: 0px !important;
 }
 
 form h2 {
