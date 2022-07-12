@@ -37,6 +37,11 @@ form h2 {
 	color: white !important;
 }
 
+#errorLi,
+.error-container {
+	display: none !important;
+}
+
 input,
 textarea {
 	border-radius: 4px 4px 0 0 !important;
