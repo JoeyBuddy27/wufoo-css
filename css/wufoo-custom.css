@@ -29,6 +29,10 @@ form {
 	margin: 0px !important;
 }
 
+form.wufoo {
+	margin: 0px !important;
+}
+
 form h2 {
 	color: white !important;
 }
